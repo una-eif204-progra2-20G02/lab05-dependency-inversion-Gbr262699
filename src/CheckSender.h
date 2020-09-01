@@ -8,7 +8,7 @@
 #include <string>
 #include"ISendPayment.h"
 
-class CheckSenderpublic:public ISendPayment {
+class CheckSender:public ISendPayment {
     std::string sendPayment() const;
 };
 

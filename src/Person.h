@@ -36,6 +36,8 @@ public:
     std::string processPaymentCheck();
 
     virtual std::string toString() const; // Virtual
+    std::string sendPayment();
+
 private:
     std::string firstName;
     std::string lastName;
