@@ -7,8 +7,7 @@
 
 #include <string>
 
-class CheckSender{
-public:
+class CheckSenderpublic: {
     std::string sendPayment() const;
 };
 
