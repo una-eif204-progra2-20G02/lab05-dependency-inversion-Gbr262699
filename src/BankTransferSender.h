@@ -6,11 +6,11 @@
 #define LAB05_DEPENDENCY_INVERSION_SOLUTION_BANKTRANSFERSENDER_H
 
 
-#include <string>
+#include "IPaymentSender.h"
 
-class BankTransferSender:public {
+class BankTransferSender:public IPaymentSender {
 
-    std::string sendPayment() override;
+    std::string sendPayment()const override;
 };
 
 
